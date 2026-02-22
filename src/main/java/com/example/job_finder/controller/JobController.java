@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/jobs")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173/")   // change in production!
+@CrossOrigin(origins = "https://raman0tushar.github.io/JobFinder-Frontend/")   // change in production!
 public class JobController {
 
     private final JobService jobService;
